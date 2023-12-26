@@ -66,3 +66,14 @@ export interface SearchManuFacturerProps {
   manufacturer: string;
   setManuFacturer: (manufacturer: string) => void;
 }
+
+export interface LoginFormInput  {
+  email: string,
+  password: string
+}
+export interface SignUpFormInput  {
+  name: string,
+  email: string,
+  password: string,
+  confirmPassword: string,
+}

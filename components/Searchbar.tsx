@@ -82,6 +82,7 @@ const SearchBar = () => {
           onChange={(e) => setModel(e.target.value)}
           placeholder='Tiguan...'
           className='searchbar__input'
+          autoComplete="off"
         />
         <SearchButton otherClasses='sm:hidden' />
       </div>
